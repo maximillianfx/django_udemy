@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <h1>Seja bem vindo</h1>
+    <h1>Seja bem vindo - Django</h1>
     {% if user.is_authenticated %}
         <p>Olá {{user.username}}</p>
         <a href="{% url 'my_logout' %}">Sair</a>
